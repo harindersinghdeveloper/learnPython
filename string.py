@@ -35,3 +35,6 @@ print(message.format("Sam", "Sunday"))
 print("My days are {} {} {}".format("Sunday", "Monday", "Tuesday"))
 print("My days are {0} {0} {0}".format("Sunday", "Monday", "Tuesday"))
 print("My days are {s} {m} {t}".format(s="Sunday", m="Monday", t="Tuesday"))
+
+#Formatting with string literals
+print(f'Hello , his name is {name}')
