@@ -7,7 +7,7 @@ def mod(a, b):
 def power(a, b):
     print(a**b)
 
-multiply(7, 4)
-divide(7,4)
-mod(7,4)
-power(7,4)
+# multiply(7, 4)
+# divide(7,4)
+# mod(7,4)
+# power(7,4)
