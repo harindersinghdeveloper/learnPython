@@ -30,6 +30,12 @@ def returnIndexList2(nums, target):
         seen[num]=i
     return "expected numbers not found"
 
-print(returnIndexList2(nums, target))
+#print(returnIndexList2(nums, target))
 
 
+#Given an integer x, return true if x is a palindrome, and false otherwise.
+
+def checkPalindrome(num):
+    return str(num)[::-1]==str(num)
+
+print(checkPalindrome(101))
